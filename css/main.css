@@ -1,0 +1,33 @@
+#mobile-outline {
+   outline: 20px solid #333;
+   max-width: 412px;
+   margin: 20px auto 20px auto;
+   border-radius: 10px;
+} 
+
+body {
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+body p {
+    font-size: 17px;
+}
+
+#icon-con {
+    display: flex;
+    justify-content: center;
+}
+
+#icon-con section svg {
+    width: 170px;
+}
