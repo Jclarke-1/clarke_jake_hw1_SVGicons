@@ -38,14 +38,14 @@ body p {
     transform-origin: center;
 }
 
-#Orange:hover #border-orange {
+#Orange:hover .cls-4 {
     fill: rgb(21, 21, 139);
 }
 
-#Orange:hover #border-white {
+#Orange:hover .cls-2 {
     fill: aliceblue;
 }
 
-#Orange:hover #orange_slices {
+#Orange:hover .cls-3 {
     fill: blue;
 }
