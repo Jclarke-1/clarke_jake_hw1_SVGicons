@@ -31,3 +31,21 @@ body p {
 #icon-con section svg {
     width: 100%;
 }
+
+#orange_slices {
+    transition: all 0.5s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+#Orange:hover #border-orange {
+    fill: rgb(21, 21, 139);
+}
+
+#Orange:hover #border-white {
+    fill: aliceblue;
+}
+
+#Orange:hover #orange_slices {
+    fill: blue;
+}
