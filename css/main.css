@@ -12,15 +12,40 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: "Rethink Sans", "Geist", 'Times New Roman', Times, serif
 }
 
 body h2 {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     font-size: 25px;
 }
 
+.heading {
+ position: relative;
+ display: inline-block;
+ padding-bottom: 5px;
+ color: rgb(21, 21, 139);
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(21, 21, 139);
+    bottom: 0;
+    left: 0;
+}
+
+body h3 {
+    margin-top: 30px;
+}
+
 body p {
-    font-size: 17px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
 }
 
 #icon-con {
@@ -32,11 +57,6 @@ body p {
     width: 100%;
 }
 
-#orange_slices {
-    transition: all 0.5s ease;
-    transform-box: fill-box;
-    transform-origin: center;
-}
 
 #Orange:hover .cls-4 {
     fill: rgb(21, 21, 139);
@@ -48,4 +68,149 @@ body p {
 
 #Orange:hover .cls-3 {
     fill: blue;
+}
+
+#grapefruit {
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: all 7s ease;
+}
+
+#grapefruit:hover .grape-black-border {
+    animation: wiggle .7s ease-out;
+}
+
+#grapefruit:hover .grape-white  {
+ animation: wiggle .7s ease-out;
+}
+
+#grapefruit:hover .grape-red-filling {
+ animation: wiggle .7s ease-out;
+}
+
+#grapefruit:hover .grape-orange-border {
+ animation: wiggle .7s ease-out;
+}
+
+@keyframes wiggle {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(3deg);}
+    75% {transform: rotate(-3deg);}
+    100% {transform: rotate(0deg);}
+}
+
+#passionfruit:hover {
+ transform-box: fill-box;
+ transform-origin: center;
+}
+
+#passionfruit:hover .passion-leaf-filling {
+    fill: green;
+}
+
+#pineapple:hover .pine-orange-border {
+ stroke: rgb(160, 42, 42);
+}
+
+#pineapple:hover .pine-yellow-filling {
+    fill: red;
+}
+
+#pineapple:hover .pine-stem-green-fill {
+    fill: blue;
+}
+
+#strawberry {
+        transform-box: fill-box;
+    transform-origin: center;
+    transition: all 7s ease;
+}
+
+#strawberry:hover .straw-border-fill {
+    animation: wiggle .7s ease-out;
+}
+
+#strawberry:hover .straw-stem-green {
+    animation: wiggle .7s ease-out;
+}
+
+#strawberry:hover .straw-dark-red-shade {
+    animation: wiggle .7s ease-out;
+}
+
+#strawberry:hover .straw-stem-light-green {
+    animation: wiggle .7s ease-out;
+}
+
+#strawberry:hover .straw-red-fill {
+    animation: wiggle .7s ease-out;
+}
+
+#strawberry:hover .straw-seed-fill {
+    animation: wiggle .7s ease-out;
+}
+
+#Watermelon {
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+#Watermelon:hover .melon-red-fill {
+    fill: rgb(100, 100, 235);
+}
+
+#pineapple {
+    width: 158px;
+    height: 158px;
+}
+
+
+#passionfruit {
+    width: 158px;
+    height: 156px;
+}
+
+#Orange {
+     width: 158px;
+    height: 156px;
+}
+
+#grapefruit {
+     width: 158px;
+    height: 156px;
+}
+
+#Watermelon {
+        width: 158px;
+    height: 156px;
+}
+
+#strawberry {
+        width: 158px;
+    height: 156px;
+}
+
+#orange-con {
+    background-color:rgb(100, 100, 235);
+}
+
+#grapefruit-con {
+    background-color: white;
+}
+
+#passionfruit-con {
+    background-color:rgb(100, 100, 235);
+}
+
+#pineapple-con {
+    background-color: white;
+}
+
+#strawberry-con {
+    background-color:rgb(100, 100, 235);
+}
+
+header {
+    color: rgb(100, 100, 235);
+    font-size: 20px;
 }
